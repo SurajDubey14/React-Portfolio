@@ -1,0 +1,64 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 50px;
+  /* animation-name: SpaceAnimate;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out; */
+}
+.image {
+  padding: 5% 5% 7% 4%;
+}
+.image .aboutimage {
+  height: 450px;
+  border-radius: 40px;
+}
+.about-text p {
+  text-align: justify;
+  width:95%;
+}
+
+/* @keyframes SpaceAnimate {
+  from {
+    gap: 150px;
+  }
+  to {
+    gap: 20px;
+  }
+} */
+
+/* ! Responsive For Mobile */
+
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+  .about {
+    gap: 30px;
+    padding: 2% 0%;
+  }
+  .about .aboutimage {
+    height: 350px;
+    border-radius: 40px;
+  }
+  .about-text {
+    width: 60%;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .about {
+    flex-direction: column;
+    gap: 5vh;
+    text-align: center;
+    padding-bottom: 10vh;
+  }
+  .about .aboutimage {
+    height: 350px;
+    border-radius: 40px;
+  }
+  .about-text p {
+    text-align: center;
+    padding: 5%;
+    width: 90%;
+  }
+}

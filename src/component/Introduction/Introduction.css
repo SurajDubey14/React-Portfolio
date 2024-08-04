@@ -1,0 +1,61 @@
+.intro {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 5px 0px 20px 20px;
+  justify-content: space-between;
+}
+.intro .text {
+  padding: 50px 0px 150px 50px;
+  font-size: 40px;
+}
+.intro .mydata {
+  font-size: 40px;
+}
+.intro .mydata span {
+  color: hsl(100, 29%, 49%);
+  font-size: 50px;
+}
+
+.intro .media {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 2%;
+  margin-top: 2%;
+}
+.intro .media a {
+  color: white;
+  font-size: 70%;
+  margin: 2% 0%;
+  padding: 2% 3%;
+}
+.intro .media a:hover {
+  box-shadow: 1px -2px 20px -6px whitesmoke inset;
+  border-radius: 50%;
+}
+.IntroImage {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: fixed;
+  bottom: 0;
+  left: 0%;
+  z-index: -1;
+  width: 100%;
+}
+.IntroImage img {
+  /* opacity: 0.6; */
+  padding: 0px 0px;
+  width: 500px;
+}
+@media only screen and (max-width: 1040px) {
+  .intro .text {
+    padding: 5px 10px 50px 10px;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  .IntroImage {
+    left: 30px;
+  }
+}

@@ -1,0 +1,132 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 3% 0% 7% 5%;
+}
+.Contacthead {
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+.info {
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  font-size: x-large;
+  margin: 5% 0% 0% 0%;
+}
+.data .media {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5%;
+}
+.data .media a {
+  color: white;
+  font-size: x-large;
+  margin: 5% 0%;
+  padding: 4% 5%;
+}
+.data .media a:hover {
+  box-shadow: 1px -2px 20px -6px whitesmoke inset;
+  border-radius: 50%;
+}
+
+/* Input */
+.inputfield {
+  width: 100%;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  /* padding: 40px 10px; */
+}
+.box input {
+  /* width: 550px; */
+  width: 80%;
+  font-size: large;
+  height: 2%;
+  padding: 2%;
+  background-color: rgb(24, 24, 24);
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+
+textarea {
+  font-size: x-large;
+  background-color: rgb(24, 24, 24);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 2%;
+  max-height: 10%;
+  width: 80%;
+}
+textarea:focus {
+  outline: none;
+}
+.box input:focus {
+  outline: none;
+}
+
+/* @keyframes SpaceAnimate {
+  from {
+    gap: 150px;
+  }
+  to {
+    gap: 50px;
+  }
+} */
+
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+  .Contacthead {
+    font-size: x-large;
+  }
+  .info {
+    font-size: 18px;
+  }
+  .inputfield .box input,
+  textarea {
+    width: 90%;
+    padding: 25px 15px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .contact {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7%;
+    padding: 2%;
+  }
+  .Contacthead {
+    font-size: x-large;
+  }
+  .data {
+    padding: 10px 10px;
+  }
+  .info {
+    font-size: 18px;
+  }
+  .box {
+    margin: 2px;
+    padding: 40px 0px;
+  }
+  .box input {
+    /* width: 90%; */
+    height: 10px;
+    padding: 20px 15px;
+  }
+  .box {
+    gap: 10px;
+  }
+  textarea {
+    /* width: 90%; */
+    padding: 20px 15px;
+  }
+}

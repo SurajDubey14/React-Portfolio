@@ -1,0 +1,34 @@
+.Projecthead {
+  text-align: center;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5vw;
+  padding: 4%;
+}
+
+.Pbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2vw;
+}
+
+/* ! Responsive For Mobile */
+
+@media only screen and (max-width: 767px) {
+  .projects {
+    flex-wrap: wrap;
+    gap: 5vh;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  .projects {
+    flex-wrap: wrap;
+    gap: 5vh;
+  }
+}
+
