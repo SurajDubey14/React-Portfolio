@@ -26,14 +26,14 @@ const Project = () => {
           src="Clothing.jpg"
           title="Clothing"
           details="Developed a clothing brand webpage using Firebase and React, demonstrating strong skills in frontend design and backend development. The project features efficient user registration, dynamic product listings, and seamless data management for an optimal shopping experience."
-          gitcode="https://github.com/SurajDubey14/Web-bizz"
+          gitcode="#"
           LinkICon={<FaLink />}
         />
         <ImageCard
-          src="Shortly.jpg"
-          title="Shorlty"
-          details="Shortly integrates Firebase and React for efficient URL shortening and user registration. This project highlights my expertise in frontend design and backend development, emphasizing seamless data management and user interaction."
-          gitcode="#"
+          src="NexGen.jpg"
+          title="NexGen University"
+          details="Efficiently integrates Firebase and Forntend Technologies to streamline URL shortening and user registration for NexGen University, a leading global institution. This project showcases my proficiency in frontend design and backend development, highlighting seamless data management and user engagement within the context of the world’s top university."
+          gitcode="https://nexgenuniversity.vercel.app/"
           LinkICon={<FaLink />}
         />
         <ImageCard
@@ -47,7 +47,7 @@ const Project = () => {
           src="Calculator.jpg"
           title="Calculator"
           details="Developed a dynamic calculator using HTML, CSS, and JavaScript, featuring a sleek, user-friendly interface. Implemented arithmetic operations with real-time input validation, demonstrating strong skills in front-end development and problem-solving."
-          gitcode="https://github.com/SurajDubey14/Web-bizz"
+          gitcode="https://github.com/SurajDubey14/Calculator.git"
           LinkICon={<FaLink />}
         />
       </div>
