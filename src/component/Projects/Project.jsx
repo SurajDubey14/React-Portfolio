@@ -32,7 +32,7 @@ const Project = () => {
         <ImageCard
           src="NexGen.jpg"
           title="NexGen University"
-          details="Efficiently integrates Firebase and Forntend Technologies to streamline URL shortening and user registration for NexGen University, a leading global institution. This project showcases my proficiency in frontend design and backend development, highlighting seamless data management and user engagement within the context of the world’s top university."
+          details="Uses Firebase with HTML, CSS, and JavaScript to enhance user registration and data management for NexGen University, a top global institution. Demonstrates expertise in frontend and backend development, ensuring smooth user interaction and efficient data handling."
           gitcode="https://nexgenuniversity.vercel.app/"
           LinkICon={<FaLink />}
         />
